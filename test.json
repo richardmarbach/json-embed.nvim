@@ -1,0 +1,4 @@
+{
+    "test": "SELECT *, \"tst\" FROM test WHERE 1 = 1",
+    "test1": "SELECT * FROM testing WHERE 1 = 1"
+}
