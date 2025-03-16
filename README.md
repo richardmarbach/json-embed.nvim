@@ -2,7 +2,8 @@
 
 A neovim plugin for easily editing languages embedded into json
 
-![Usage](./usage.mov)
+https://github.com/user-attachments/assets/ded6bff9-752b-432d-8e8b-69e92be5ca66
+
 
 ## Installation
 
