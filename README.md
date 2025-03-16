@@ -16,7 +16,6 @@ https://github.com/user-attachments/assets/ded6bff9-752b-432d-8e8b-69e92be5ca66
     cmd = { "JSONEmbedEdit" },
     keys = {
       {
-        "n",
         "<leader>je",
         function()
           require("json-embed").edit_embedded()
