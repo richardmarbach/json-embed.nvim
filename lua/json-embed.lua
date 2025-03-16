@@ -165,11 +165,11 @@ M.setup = function(opts)
 	M.opts = vim.tbl_extend("force", M.opts, opts)
 
 	vim.api.nvim_create_user_command("JSONEmbedEdit", M.edit_embedded, {})
-
-	vim.keymap.set("n", "<leader>x", function()
-		vim.cmd("source %")
-		require("lazy.core.loader").reload("json-embed")
-	end, { noremap = true })
+	--
+	-- vim.keymap.set("n", "<leader>x", function()
+	-- 	vim.cmd("source %")
+	-- 	require("lazy.core.loader").reload("json-embed")
+	-- end, { noremap = true })
 end
 
 return M
